@@ -6,7 +6,7 @@ Make sure you mount /keys from the container to your host to keep the keys.
 ## Usage
 
 ```bash
-docker run -it --rm -v $(pwd)/keys:/keys ghcr.io/maestroi/nimiq-key-generator:main
+docker run -it --rm -v $(pwd)/keys:/keys ghcr.io/Beardsoft/nimiq-key-generator:main
 ```
 
 ## License
